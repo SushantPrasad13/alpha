@@ -1,0 +1,462 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(./images/AlphaImage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #f5f5f5;
+    
+}
+#bar{
+    display: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 2%;
+
+}
+#left h1{
+    font-size: 1rem;
+    color: white;
+    
+}
+#cont{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    gap: 1.5rem;
+    list-style-type: none;
+}
+#left h1 span{
+    font-weight: 100;
+   
+}
+#right a{
+    color: white;
+    text-decoration: none;
+}
+#cont li a button{
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid rgba(218, 216, 216, 0.829);
+    padding: 4px 11px;
+
+}
+#main{
+    list-style-type: none;
+    padding:0;
+    background-color: white;
+    border-radius: 5px;
+    /* color: black; */
+    position: absolute;
+    top: 100%;
+   right: 0%;
+    width: 300%;
+    display: none;
+}
+#drop:hover #main{
+    display: block;
+}
+#drop{
+    position: relative;
+}
+#main a{
+    color: black;
+    padding-left: 10px;
+    border-bottom: 1px solid gray;
+    display: block;
+}
+#main a:hover{
+    
+    background-color:orange;
+
+}
+#menu{
+    list-style-type: none;
+    padding:0;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    position: absolute;
+    top: 0%;
+    left: -90%;
+    right: 0%;
+    width: 90%;
+    display: none;
+}
+#dropsub:hover #menu{
+    display: block;
+}
+#dropsub{
+    position: relative;
+}
+#menu a{
+    color: black;
+    padding-left: 10px;
+    border-bottom: 1px solid gray;
+    display: block;
+    /* display: none; */
+}
+#menu a:hover{
+    
+    background-color:orange;
+    display: block;
+}
+#ALPHA{
+    text-align: center;
+    color: white;
+    margin-top: 7rem;
+
+}
+#ALPHA h1{
+font-size: 3rem;
+margin-bottom: 0;
+}
+#ALPHA p{
+    font-size: 1.2rem ;
+    margin-bottom: 3rem;
+}
+#ALPHA button{
+    font-size: 0.8rem;
+    width: 12%;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    margin-left:1rem ;
+    color: gray;
+    /* padding-bottom: rem; */
+
+}
+#ALPHA #learn{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.605);
+    color: white;
+}
+#intro{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top:7rem ;
+    font-size: 1rem;
+    color: #535252;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 1rem;
+    border-radius:5px ;
+    
+
+}
+#intro h1{
+    font-size: 2rem;
+    font-weight: 200;
+}
+#intro p{
+    font-size: 1.2rem;
+    border-top: 1px solid rgb(217, 212, 212);
+    width: 60%;
+    margin: auto;
+    padding-top: 1.5rem ;
+    padding-bottom: 1.5rem;
+}
+#intro img {
+    width: 100%;
+    /* margin: auto; */
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+
+}
+#iconsmain{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+}
+#iconsmain section{
+    padding-left: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#iconsmain div{
+    width: 47%;
+    text-align: center;
+    display: inline-block;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.fa-solid{
+    font-size: 2.5rem;
+    color: white;
+    border-radius: 100%;
+}
+.fa-bolt-lightning{
+   
+    background-color: #e89980;
+    padding: 1.2rem 1.5rem;
+}
+.fa-chart-area{
+    background-color:#7fcdb8;
+    padding: 1.2rem 1.2rem;
+}
+.fa-cloud
+{
+    background-color: #90b0ba;
+    padding: 1.3rem 1.1rem;
+}
+.fa-lock{
+    background-color: #e5cb95;
+    padding: 1.2rem 1.3rem;
+}
+#div1{
+    border-right: 2px solid hsl(0,0%,90%);
+    border-bottom: 2px solid hsl(0,0%,90%);
+    position: relative;
+    top: 3px;
+    left: 3.5px;
+}
+#div4{
+    border-top: 2px solid hsl(0,0%,90%);
+    border-left:2px solid hsl(0,0%,90%) ;
+}
+#cards{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    margin-top: 2.5rem;
+    border-radius: 5px;
+    
+    
+}
+#cards div{
+    width: 48.5%;
+    background-color: white;
+}
+#cards div img{
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   padding-left: 2%;
+   width: 100%;
+
+}
+#cards div h1{
+    color: #6f6866;
+    padding-top: 1rem;
+}
+#cards div button{
+    color: #9ea4a9;
+}
+#signup{
+    background-color:#e89980;
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+#signup h2{
+    padding-top: 3rem;
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+#input{
+    padding:1.5%;
+    font-size: 1rem;
+    width: 20%;
+    height: 0.3rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #eba893;
+    margin-bottom: 4rem;
+   
+
+}
+#input::placeholder{
+    color: rgba(255, 255, 255, 0.63);
+    
+}
+#signup button{
+    width: 10%;
+    height: 2.6rem;
+    border-radius: 5px;
+    border: none;
+    color:#e89980 ;;
+    margin-left: 0.8rem;
+    background-color: white;
+
+}
+#icons #iconchild{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;list-style-type: none;
+    
+}
+#icons #iconchild a{
+    text-decoration: none;
+    color: rgb(210, 209, 209);
+    font-size: 1.6rem;
+    padding-top: 2rem;
+   
+}
+#iconchild li a:hover{
+   color: gray;
+}
+footer #para{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    font-size: 0.8rem;
+    padding-bottom: 5rem;
+
+}
+footer #para a{
+   text-decoration: none;
+   border-bottom: 1px dotted gray;
+}
+
+
+
+
+
+/* -----------------Mobile Version-------------------- */
+@media(max-width:500px)
+{
+    body{
+        background-size: 190%;
+        background-position-x: center;
+    }
+    #bar{
+        display: inline-block;
+        background-color: rgba(207, 202, 202, 0.591);
+        padding:5px 10px;
+        color: white;
+        border-radius: 4px;
+        margin-top: 8px;
+        margin-left: 8px;
+      
+        
+        /* position:fixed; */
+        
+    }
+    header{
+        display: none;
+    }
+    #ALPHA{
+        
+        width: 80%;
+        margin: auto;
+        margin-top: 0rem;
+    }
+    #ALPHA h1{
+        font-size: 2rem;
+    }
+    #ALPHA p{
+            font-size: 1.1rem ;
+            font-weight: 600;
+    }
+    #ALPHA button{
+        font-size: 0.9rem;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    #intro{
+        
+        width: 100%;
+        
+        margin-top:2rem ;
+        color: #969595;
+        font-weight: 300;
+        /* padding-top: 1rem; */
+        
+    }
+    #intro h1{
+        font-size: 1.5rem;
+    }
+    #intro p{
+        font-size: 1.1rem;
+        border-top: 2px solid rgb(231, 226, 226);
+        width: 90%;
+    }
+    br{
+        display: none;
+    }
+    #iconsmain{
+        
+        width: 100%;
+    }
+    #iconsmain div{
+        width: 100%;
+        padding-top: 3rem;
+        padding-bottom: 0rem;
+    }
+    #iconsmain section{
+        padding-left: 0;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    #cards{
+        display: block; 
+        width: 100%;
+        margin-top: 1rem;
+        border-radius: 5px;  
+        }
+    #cards div{
+        width: 100%;
+        
+    }
+    #cards div img{
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding-left: 2%;
+        width: 100%;
+     
+     }
+     #cards div h1{
+        color:  #7f7076;
+        padding-top: 1rem;
+    }
+   
+    #signup h2{
+       font-size: 1.5rem;
+    
+    }
+    #input{
+        padding:5%;
+        font-size: 1rem;
+        width: 85%;
+        height: 0.3rem;
+        border-radius: 5px;
+        border: none;
+        background-color:#eba893 ;
+        margin-bottom: 1rem;
+       
+    
+    }
+    #signup button{
+        width: 95%;
+        height: 2.6rem;
+        border-radius: 5px;
+        border: none;
+        color:#e89980 ;;
+        margin-left: 0rem;
+        background-color: white;
+        margin-bottom: 3rem;
+    
+    }
+    footer #para {
+        display: block;
+        text-align: center;
+        font-size: 0.8rem;
+        padding-bottom: 5rem;
+        margin-top: 2rem;
+    
+    }
+    
+}
+
