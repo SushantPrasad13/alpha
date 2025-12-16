@@ -1,0 +1,20 @@
+steps:
+- name: gcr.io/cloud-builders/docker
+  id: Build
+  args:
+    - build
+    - -t
+    - asia-south1-docker.pkg.dev/$PROJECT_ID/cloud-run-source-deploy/sushant-alpha:${_TAG}
+    - .
+
+- name: gcr.io/cloud-builders/docker
+  id: Push
+  args:
+    - push
+    - asia-south1-docker.pkg.dev/$PROJECT_ID/cloud-run-source-deploy/sushant-alpha:${_TAG}
+
+images:
+- asia-south1-docker.pkg.dev/$PROJECT_ID/cloud-run-source-deploy/sushant-alpha:${_TAG}
+
+substitutions:
+  _TAG: v1
